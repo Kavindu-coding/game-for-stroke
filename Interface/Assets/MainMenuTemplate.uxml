@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Style/button-style.uss?fileID=7433441132597879392&amp;guid=4ea890406d5065849a720b816c968360&amp;type=3#button-style" />
+    <ui:VisualElement name="Background" style="background-color: rgba(255, 255, 255, 0); -unity-background-image-tint-color: rgb(0, 0, 0); flex-grow: 1; align-items: center; opacity: 1; top: auto;">
+        <ui:VisualElement name="Title" style="width: 30%; height: 10%; -unity-background-image-tint-color: rgb(0, 0, 0); background-color: rgb(59, 166, 165); justify-content: center; align-items: center; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; top: 80px; position: absolute; left: 454px;">
+            <ui:Label text="Medi Games" display-tooltip-when-elided="true" enable-rich-text="false" style="height: 37px; width: 255px; -unity-text-align: middle-center; font-size: 40px; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=84c815e3b0209a846965c7727a17740e&amp;type=3#NotInter-Regular&apos;);" />
+        </ui:VisualElement>
+        <ui:Button text="Game 1" display-tooltip-when-elided="true" name="game1" class="game-button-style" style="position: absolute; left: 430px; top: 264px;" />
+        <ui:Button text="Game 2" display-tooltip-when-elided="true" name="game2" class="game-button-style" style="position: absolute; left: 728px; top: 264px;" />
+        <ui:Button text="Game 3" display-tooltip-when-elided="true" name="game3" class="game-button-style" style="position: absolute; left: 430px; top: 386px;" />
+        <ui:Button text="Game 4" display-tooltip-when-elided="true" name="game4" class="game-button-style" style="position: absolute; left: 728px; top: 386px; bottom: 322px;" />
+    </ui:VisualElement>
+</ui:UXML>
