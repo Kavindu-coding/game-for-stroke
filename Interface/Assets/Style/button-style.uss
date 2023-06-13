@@ -1,0 +1,42 @@
+.game-button-style {
+    left: -40%;
+    position: relative;
+    top: 20%;
+    width: 10%;
+    height: 8%;
+    font-size: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(148, 200, 194);
+}
+
+.game-button-style:hover {
+    left: -40%;
+    position: relative;
+    top: 20%;
+    width: 10%;
+    height: 8%;
+    font-size: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(124, 152, 148);
+}
+
+.game-button-style:active {
+    left: -40%;
+    position: relative;
+    top: 20%;
+    width: 10%;
+    height: 8%;
+    font-size: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(124, 152, 148);
+    color: rgba(255, 255, 255, 255);
+}
