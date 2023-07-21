@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlyerController : MonoBehaviour
 {
@@ -41,6 +42,10 @@ public class PlyerController : MonoBehaviour
     {
         countText.text = count.ToString();
         count++;
+        if (count == 13)
+        {
+            SceneManager.LoadScene("Level_2");
+        }
 
     }
 
