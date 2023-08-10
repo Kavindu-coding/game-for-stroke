@@ -48,3 +48,6 @@ TagManager:
   - name: top
     uniqueID: 2278583613
     locked: 0
+  - name: New Layer 3
+    uniqueID: 113784975
+    locked: 0

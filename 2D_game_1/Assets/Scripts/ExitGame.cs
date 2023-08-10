@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ExitGame : MonoBehaviour
 {
@@ -22,4 +23,11 @@ public class ExitGame : MonoBehaviour
         Application.Quit();
         Debug.Log("ExitWork");
     }
+    public void OpenScene()
+    {
+        SceneManager.LoadScene("StartUI");
+    }
+
+
 }
+

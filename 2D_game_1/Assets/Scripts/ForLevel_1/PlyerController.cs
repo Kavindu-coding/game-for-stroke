@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class PlyerController : MonoBehaviour
 {
-
+    private AudioSource auds;
     private Rigidbody2D rbody;
     public float speed=100 ;
     public float count;
@@ -17,7 +17,8 @@ public class PlyerController : MonoBehaviour
     void Start()
     {
         rbody = GetComponent<Rigidbody2D>();
-        
+        auds = GetComponent<AudioSource>();
+
     }
     
     // Update is called once per frame
@@ -35,6 +36,7 @@ public class PlyerController : MonoBehaviour
         {
             Destroy(target.gameObject);
             countShow();
+            auds.Play();
         }
     }
 
@@ -44,7 +46,7 @@ public class PlyerController : MonoBehaviour
         count++;
         if (count == 13)
         {
-            SceneManager.LoadScene("Level_2");
+            SceneManager.LoadScene("EndLevel");
         }
 
     }
