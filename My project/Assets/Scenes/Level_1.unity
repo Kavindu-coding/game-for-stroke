@@ -296,6 +296,7 @@ MonoBehaviour:
   speed: 150
   count: 1
   countText: {fileID: 56506853}
+  level: level_1
 --- !u!212 &61974656
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -594,6 +595,64 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2073219370516056902, guid: 6f55cebb03635f7429577f8d31fdcaef, type: 3}
   m_PrefabInstance: {fileID: 2073219370325867461}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &472186111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 472186114}
+  - component: {fileID: 472186113}
+  - component: {fileID: 472186112}
+  m_Layer: 0
+  m_Name: Main
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &472186112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472186111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f2efa143d594e4d91e88ad692411b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &472186113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472186111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c023cd848cdd946498f9248129dedefb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Web: {fileID: 0}
+--- !u!4 &472186114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472186111}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 795.1786, y: 403.79843, z: -0.18485662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &483540774
 GameObject:
   m_ObjectHideFlags: 0
@@ -838,10 +897,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8708e0c06b45e94381d5180aa7ce8f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  port: 5052
-  startReceiving: 1
-  printToConsole: 0
-  data: 
 --- !u!1001 &539332203
 PrefabInstance:
   m_ObjectHideFlags: 0

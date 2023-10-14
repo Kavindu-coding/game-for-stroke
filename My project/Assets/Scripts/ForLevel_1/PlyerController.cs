@@ -12,6 +12,7 @@ public class PlyerController : MonoBehaviour
     public float speed=100 ;
     public float count;
     public TextMeshProUGUI countText;
+    public string level = "level_1";
   
     // Start is called before the first frame update
     void Start()
@@ -46,6 +47,8 @@ public class PlyerController : MonoBehaviour
         count++;
         if (count == 13)
         {
+
+            StartCoroutine(scoreMain.Instance.Web.Game1Score(level, count.ToString()));
             SceneManager.LoadScene("EndLevel");
         }
 

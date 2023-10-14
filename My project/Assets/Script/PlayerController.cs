@@ -70,7 +70,7 @@ public class PlayerController : MonoBehaviour
 
             gameOver = true;
             Physics.gravity /= gravityModifier;
-            SceneManager.LoadScene("Fail");
+            SceneManager.LoadScene("Fail");   //score sending
         }
 
     }
